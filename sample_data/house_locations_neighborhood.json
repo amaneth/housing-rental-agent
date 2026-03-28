@@ -1,0 +1,108 @@
+{
+  "locations": [
+    {
+      "id": "loc_cmc",
+      "name": "CMC",
+      "lat": 9.0300,
+      "lon": 38.8200
+    },
+    {
+      "id": "loc_bole",
+      "name": "Bole",
+      "lat": 8.9806,
+      "lon": 38.7578
+    },
+    {
+      "id": "loc_megenagna",
+      "name": "Megenagna",
+      "lat": 9.0108,
+      "lon": 38.7995
+    },
+    {
+      "id": "loc_kazanchis",
+      "name": "Kazanchis",
+      "lat": 9.0200,
+      "lon": 38.7600
+    },
+    {
+      "id": "loc_saris",
+      "name": "Saris",
+      "lat": 8.9000,
+      "lon": 38.7400
+    }
+  ],
+  "houses": [
+    {
+      "id": "house_1",
+      "title": "Modern Apartment near CMC",
+      "neighborhood_id": "loc_cmc",
+      "lat": 9.0285,
+      "lon": 38.8180,
+      "price": 25000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "apartment",
+      "furnished": true
+    },
+    {
+      "id": "house_2",
+      "title": "Spacious Condo in Bole",
+      "neighborhood_id": "loc_bole",
+      "lat": 8.9815,
+      "lon": 38.7585,
+      "price": 40000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "condo",
+      "furnished": false
+    },
+    {
+      "id": "house_3",
+      "title": "Affordable Studio in Megenagna",
+      "neighborhood_id": "loc_megenagna",
+      "lat": 9.0115,
+      "lon": 38.8002,
+      "price": 15000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "type": "studio",
+      "furnished": false
+    },
+    {
+      "id": "house_4",
+      "title": "Luxury Apartment in Kazanchis",
+      "neighborhood_id": "loc_kazanchis",
+      "lat": 9.0210,
+      "lon": 38.7610,
+      "price": 60000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "type": "apartment",
+      "furnished": true
+    },
+    {
+      "id": "house_5",
+      "title": "Budget House in Saris",
+      "neighborhood_id": "loc_saris",
+      "lat": 8.9020,
+      "lon": 38.7420,
+      "price": 12000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "house",
+      "furnished": false
+    },
+    {
+      "id": "house_6",
+      "title": "Cozy Apartment near Megenagna",
+      "neighborhood_id": "loc_megenagna",
+      "lat": 9.0095,
+      "lon": 38.7980,
+      "price": 22000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "type": "apartment",
+      "furnished": true
+    }
+  ]
+}

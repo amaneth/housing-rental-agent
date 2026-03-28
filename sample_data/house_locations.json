@@ -1,0 +1,61 @@
+{
+  "locations": [
+    { "name": "Bole", "lat": 8.9806, "lon": 38.7578 },
+    { "name": "Megenagna", "lat": 9.0108, "lon": 38.7995 },
+    { "name": "CMC", "lat": 9.0300, "lon": 38.8200 },
+    { "name": "Sarbet", "lat": 8.9800, "lon": 38.7400 },
+    { "name": "Kazanchis", "lat": 9.0200, "lon": 38.7600 }
+  ],
+  "houses": [
+    {
+      "id": 1,
+      "title": "Modern apartment near Bole Atlas",
+      "price": 950,
+      "bedrooms": 1,
+      "has_pet_permission": true,
+      "area": "Bole",
+      "lat": 8.9780,
+      "lon": 38.7600
+    },
+    {
+      "id": 2,
+      "title": "Affordable studio in Sarbet",
+      "price": 600,
+      "bedrooms": 1,
+      "has_pet_permission": false,
+      "area": "Sarbet"
+    },
+    {
+      "id": 3,
+      "title": "Spacious apartment in Megenagna",
+      "price": 1200,
+      "bedrooms": 2,
+      "has_pet_permission": true,
+      "area": "Megenagna"
+    },
+    {
+      "id": 5,
+      "title": "Cozy apartment near Kazanchis",
+      "price": 800,
+      "bedrooms": 1,
+      "has_pet_permission": false,
+      "area": "Kazanchis"
+    },
+    {
+      "id": 6,
+      "title": "Luxury apartment in Bole",
+      "price": 1800,
+      "bedrooms": 2,
+      "has_pet_permission": true,
+      "area": "Bole"
+    },
+    {
+      "id": 7,
+      "title": "Budget room near Megenagna",
+      "price": 500,
+      "bedrooms": 1,
+      "has_pet_permission": false,
+      "area": "Megenagna"
+    }
+  ]
+}
