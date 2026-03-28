@@ -9,6 +9,7 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
+house_data = "sample_data/house_locations_neighborhood.json"
 CACHE_FILE = "cache/vector_store_cache.json"
 model = "gpt-5.4-nano-2026-03-17"
 client = OpenAI()
@@ -20,6 +21,7 @@ def create_vector_store():
     global _vector_store
 
     if _vector_store is not None:
+        logging.debug("A saved vector store is retrieved from memory.")
         return _vector_store
 
     if os.path.exists(CACHE_FILE):
@@ -34,7 +36,7 @@ def create_vector_store():
             return _vector_store
 
     logging.info("Creating a new vector store...")
-    with open("sample_data/houses.json", "rb") as f:
+    with open(house_data, "rb") as f:
         house_file = client.files.create(file=f, purpose="assistants")
 
     _vector_store = client.vector_stores.create(name="houses_knowledge_base")
